@@ -1,0 +1,188 @@
+.app {
+  min-height: 100vh;
+}
+
+.wrapper {
+  padding: 1em;
+}
+
+.shadow {
+  box-shadow: 0 6px 14px 0 rgba(0,0,0,0.2), 0 4px 18px 0 rgba(0,0,0,0.20);
+}
+
+input {
+  width: 100%;
+  font-size: 12px;
+  height: 30px;
+  margin: 0.5rem 0;
+}
+
+input[type="text"], input[type="number"] {
+  box-sizing: border-box;
+  padding: 20px 20px;
+  background-color: #24323d;
+  color: white;
+  border: 1px solid lightgray;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+#address {
+  padding-right: 100px;
+}
+
+input::placeholder {
+  padding: 5px;
+}
+
+.geo {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.geo input {
+  width: 48%;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button {
+  width: 100%;
+  height: 45px;
+  margin: 0.5rem 0;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1em;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  color: white;
+}
+
+.add {
+  margin-top: 2rem;
+  background-color: #4ecca3;
+}
+
+button[type="reset"] {
+  background-color: tomato;
+}
+
+button[type="submit"] {
+}
+
+button[type="submit"]:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+
+
+.form-inputs {
+  background-color: #24323d;
+  border-radius: 3px;
+  padding: 3em 2em;
+}
+
+#mapId {
+  height: 464px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 3em 2em 0em 2em; 
+}
+
+.left-col .right-col {
+  flex-grow: 1;
+}
+
+.left-col {
+  flex-basis: 30%;
+  margin-right: 1px solid black;
+}
+
+.right-col {
+  flex-basis: 60%;
+}
+
+.reset-div {
+  padding: 1em 2em;
+  margin-top: 1rem;
+}
+
+.table {
+  margin-top: 2rem;
+}
+
+.address404 {
+  color: tomato;
+  font-size: 10px;
+}
+
+.search {
+  font-size: 0.75rem;
+  font-weight: 400;
+  width: 100px;
+  margin-left: -100px;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.totals {
+  margin-bottom: 0.2rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+th {
+  background-color: #393e46;
+  color: white
+}
+
+tr:hover{
+  background: #4ecca3;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.no-data {
+  text-align: center;
+  line-height: 14px;
+}
+
+.p-reference {
+  font-size: 0.8em;
+  margin-top: 5px;
+}
